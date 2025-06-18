@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.6;
+  background: #f6d4f8;
+  color: #333;
+  padding-bottom: 60px;
+}
+
+header {
+  background: #75a8df;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+p{
+  font-size: 18px;
+}
+nav {
+  background: #5ddfdc;
+  text-align: center;
+  padding: 1rem;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+  height: 800px;
+}
+.para{
+  margin-top:5rem;
+}
+.para1{
+  margin-top:2rem;
+}
+h2 {
+  margin-bottom: 20px;
+  color: #070808;
+   margin-left:350px;
+   margin-top:30px;
+   margin-bottom: 40px;
+}
+
+.project-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.project-card {
+  background: rgb(107, 234, 217);
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card img {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+.project-card a {
+  display: inline-block;
+  margin: 10px 10px 0;
+  background: #007bff;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.project-card a:hover {
+  background: #004999;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width:550px;
+  margin-left:200px;
+  margin-top:30px;
+}
+
+form input,
+form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+form button {
+  padding: 10px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #1e7e34;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
